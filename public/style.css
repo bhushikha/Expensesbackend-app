@@ -1,0 +1,53 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+
+
+#btn{
+    width: 20%;
+    font-size: 15px;
+    outline: 0;
+    border: 0;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.main{
+    /* background-image: url(https://picsum.photos/640/360); */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    
+    
+}
+.box{
+    min-width: 400px;
+    padding: 10px;
+    box-shadow: 0 4px 10px rgb(0 0 0 /50%);
+    background: white;
+    border-radius: 2px;
+    margin-top: 10px;
+    text-align: center;
+    align-content: center;
+    align-self: center;
+    
+}
+#pass-box{
+    width: 100%;
+    display: block;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
